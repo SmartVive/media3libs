@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.media3",
+    "module": "media3-decode-mpegh",
+    "version": "1.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-decode-mpegh-1.7.1.aar",
+          "url": "media3-decode-mpegh-1.7.1.aar",
+          "size": 1369094,
+          "sha512": "9d15e04b03c18b7b7182a79d3bc34782cdb6e07c6580bb72b6522aa0fe399fe3ec23992fc7f4403ac18c8bc09b17dcd89eef05cfc75cf2a22f283493f61acaf4",
+          "sha256": "ec0bafb1ecbfbd4bffca62f693e82868f9d893e83a084e5783ccb3b1c1f79773",
+          "sha1": "599a643eebddffce99d527e28ca562afd4ac8c67",
+          "md5": "f8ceefc75206fa1f55d85f13c56ed50e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-decode-mpegh-1.7.1.aar",
+          "url": "media3-decode-mpegh-1.7.1.aar",
+          "size": 1369094,
+          "sha512": "9d15e04b03c18b7b7182a79d3bc34782cdb6e07c6580bb72b6522aa0fe399fe3ec23992fc7f4403ac18c8bc09b17dcd89eef05cfc75cf2a22f283493f61acaf4",
+          "sha256": "ec0bafb1ecbfbd4bffca62f693e82868f9d893e83a084e5783ccb3b1c1f79773",
+          "sha1": "599a643eebddffce99d527e28ca562afd4ac8c67",
+          "md5": "f8ceefc75206fa1f55d85f13c56ed50e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "media3-decode-mpegh-1.7.1-sources.jar",
+          "url": "media3-decode-mpegh-1.7.1-sources.jar",
+          "size": 8554,
+          "sha512": "222235297e7bae160c6dfb9d84abd3801f843818afbbabe95841a35093c6332c2cf1b536866589e944b787fb2d407b00d25f5079700b4d4277578344382669a0",
+          "sha256": "f0611a85304efe00116f7d9bb1bd61a3afe2393bf6397119428c905885f9ec0e",
+          "sha1": "503385ddd82067fcae1a8c66d4deff727e03c650",
+          "md5": "38deed7d78fbe2eee6095348a99ba1e0"
+        }
+      ]
+    }
+  ]
+}

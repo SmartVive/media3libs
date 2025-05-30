@@ -10,6 +10,7 @@ chmod +x ${ROOT_DIR}/.github/scripts/build-flac.sh
 chmod +x ${ROOT_DIR}/.github/scripts/build-opus.sh
 chmod +x ${ROOT_DIR}/.github/scripts/build-vp9.sh
 chmod +x ${ROOT_DIR}/.github/scripts/build-iamf.sh
+chmod +x ${ROOT_DIR}/.github/scripts/build-mpegh.sh
 
 cd media
 export MEDIA3_PATH="$(pwd)"
@@ -21,6 +22,7 @@ ${ROOT_DIR}/.github/scripts/build-flac.sh
 ${ROOT_DIR}/.github/scripts/build-opus.sh
 ${ROOT_DIR}/.github/scripts/build-vp9.sh
 ${ROOT_DIR}/.github/scripts/build-iamf.sh
+${ROOT_DIR}/.github/scripts/build-mpegh.sh
 cd ${MEDIA3_PATH}
 ./gradlew publishToMavenLocal
 

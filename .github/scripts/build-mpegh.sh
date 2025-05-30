@@ -2,7 +2,7 @@
 
 echo "Build MPEG-H"
 
-MPEGH_MODULE_PATH="$(MEDIA3_PATH)/libraries/decoder_mpegh/src/main"
+MPEGH_MODULE_PATH="${MEDIA3_PATH}/libraries/decoder_mpegh/src/main"
 GD_PATH="${MEDIA3_PATH}/libraries/decoder_mpegh/build.gradle"
 
 

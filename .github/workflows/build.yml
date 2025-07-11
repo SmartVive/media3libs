@@ -30,8 +30,8 @@ jobs:
       - name: Checkout Media3
         uses: actions/checkout@v4
         with:
-          repository: androidx/media
-          ref: release
+          repository: SmartVive/media
+          ref: ffmpeg-video
           path: media
 
       - uses: actions/setup-java@v4
@@ -47,7 +47,7 @@ jobs:
       - uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
-          ndk-version: r28c
+          ndk-version: r26b
           local-cache: false
           add-to-path: true
       # Build 
